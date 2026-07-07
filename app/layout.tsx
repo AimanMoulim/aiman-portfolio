@@ -3,10 +3,10 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'أيمن مولي مائي - مطور ومُبدع',
-  description: 'محفظة أيمن مولي مائي - مطور يطور تطبيقات إسلامية مبتكرة ومنصات مجتمعية',
+  title: 'ManAI-SecDev',
+  description: 'مطور تطبيقات',
   generator: 'v0.app',
-  keywords: ['مطور', 'محفظة', 'تطبيقات', 'قوام', 'تطبيق إسلامي'],
+  keywords: ['مطور', 'تطبيقات'],
   icons: {
     icon: [
       {
