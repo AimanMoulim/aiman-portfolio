@@ -1,5 +1,4 @@
 /** @type {import('next').NextConfig} */
-const repoName = process.env.GITHUB_REPOSITORY?.split('/')[1] ?? 'aiman-portfolio'
 const isProd = process.env.NODE_ENV === 'production'
 
 const nextConfig = {
@@ -8,8 +7,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: isProd ? `/${repoName}` : '',
-  assetPrefix: isProd ? `/${repoName}/` : '',
+  basePath: isProd ? '/portfolio' : '',
+  assetPrefix: isProd ? '/portfolio/' : '',
 }
 
 export default nextConfig
