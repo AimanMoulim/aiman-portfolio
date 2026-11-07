@@ -1,6 +1,7 @@
 'use client'
 
 import Image from 'next/image'
+import Link from 'next/link'
 
 interface App {
   isImage: any
@@ -75,9 +76,12 @@ export default function Apps() {
                   <span className="px-4 py-2 rounded-full bg-yellow-100 text-yellow-700 text-sm font-semibold">
                     {app.status}
                   </span>
-                  <button className="px-6 py-2 rounded-full bg-gradient-to-r from-blue-500 to-blue-600 text-white font-semibold hover:shadow-lg transition-all transform hover:scale-105 opacity-0 group-hover:opacity-100">
+                  <Link
+                    href="/apps/qawam"
+                    className="px-6 py-2 rounded-full bg-gradient-to-r from-blue-500 to-blue-600 text-white font-semibold hover:shadow-lg transition-all transform hover:scale-105 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
+                  >
                     معرفة المزيد
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>
