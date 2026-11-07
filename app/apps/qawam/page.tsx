@@ -54,6 +54,19 @@ export default function QawamPage() {
               </Link>
             </div>
           </div>
+
+          <section className="mt-6 rounded-2xl bg-yellow-50 p-6 text-center">
+            <h2 className="mb-3 text-xl font-bold text-gray-900">طلب شخصي</h2>
+            <p className="mb-5 leading-relaxed text-gray-700">
+              يمكنك إرسال طلب شخصي أو استفسار من خلال صفحة التواصل.
+            </p>
+            <Link
+              href="/qawwam/request"
+              className="inline-flex rounded-full bg-yellow-500 px-5 py-2.5 font-semibold text-white transition-colors hover:bg-yellow-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-yellow-500 focus-visible:ring-offset-2"
+            >
+              إرسال طلب شخصي
+            </Link>
+          </section>
         </article>
       </div>
     </main>
