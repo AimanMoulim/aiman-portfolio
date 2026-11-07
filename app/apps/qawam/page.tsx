@@ -47,7 +47,7 @@ export default function QawamPage() {
                 وحمايتها.
               </p>
               <Link
-                href="/privacy"
+                href="/qawwam/privacy"
                 className="mt-5 inline-flex rounded-full bg-green-600 px-5 py-2.5 font-semibold text-white transition-colors hover:bg-green-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-green-600 focus-visible:ring-offset-2"
               >
                 قراءة سياسة الخصوصية
